@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Details In JS</h1>
+    <p id="search"></p>
+    <p id="replace"></p>
+    <p id="result"></p>
+    <p id="error"></p>
+    <p id="arrow"></p>
+
+<script>
+    var str = "My Name Joy";
+    var search = str.search("Joy")
+    var Replace = str.replace("Name", "Name Is");
+    var x = 50;
+    var y = 40;
+
+    document.getElementById("search").innerHTML= search;
+    document.getElementById("replace").innerHTML= Replace;
+    document.getElementById("result").innerHTML= String(x) + String(y);
+
+try{
+    docunt.getelementbyid("aa").innerhtml
+}
+catch(err){
+    document.getElementById("error").innerHTML=err.message;
+}
+multiply = (a,b) => a*b;
+document.getElementById("arrow").innerHTML= multiply(7,5);
+
+</script>
+</body>
+</html>
